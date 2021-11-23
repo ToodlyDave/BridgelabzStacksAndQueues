@@ -8,7 +8,9 @@ public class QueueTest {
 		q.enqueue(56);
 		q.enqueue(30);
 		q.enqueue(70);
-		
+		q.displayQueue();
+
+		q.dequeue();
 		q.displayQueue();
 	}
 }
